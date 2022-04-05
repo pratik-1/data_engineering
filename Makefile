@@ -9,6 +9,6 @@ lint:
 	pylint --disable=R,C *.py
 
 test:
-	pytest -v --cov-report term-missing --cov=change test_*.py
+	pytest -v --cov-report term-missing --cov=. tests/test_change.py tests/test_nlib.py
 
 all: install format lint test
