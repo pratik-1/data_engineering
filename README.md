@@ -24,7 +24,8 @@ Output:
 ```
 docker run -it click /app/csv_cli.py cvsops --file ext/input.csv --groupby last_name --applyname count --func npmedian
 ```
-
+Output:
+![Screenshot 2022-04-05 125444](https://user-images.githubusercontent.com/37976329/161749033-c28515d8-a586-4e15-833b-35ac159735a1.jpg)
 
 
 
